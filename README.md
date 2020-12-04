@@ -3,8 +3,7 @@ dog > cat
 
 ## Installing
 ```
-pip3 install -r requirements.txt
-install -m 0755 bin/dog /usr/local/bin/
+pip3 install .
 ```
 
 ## Using
@@ -17,7 +16,7 @@ $ dog s3://my-s3-bucket/cool-file.gz ~/tmp.txt | wc -l
 ```
 
 ## TODO
- - ~Better~ Any install script
+ - Upload to PyPI
  - Dockerize
 
 ## References:
